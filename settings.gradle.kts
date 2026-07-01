@@ -19,5 +19,6 @@ include(
     ":modules:tools",
     ":modules:providers",
     ":modules:audit",
-    ":modules:sandbox"
+    ":modules:sandbox",
+    ":modules:runtime",
 )

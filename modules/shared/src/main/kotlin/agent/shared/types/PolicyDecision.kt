@@ -1,9 +1,9 @@
-package agent.shared.models
+package agent.shared.types
 
 data class PolicyDecision(
 
-val allowed: Boolean,
+	val allowed: Boolean,
 
-val reason: String
+	val reason: String
 
 )

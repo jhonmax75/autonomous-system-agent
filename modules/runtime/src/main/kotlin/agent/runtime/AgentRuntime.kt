@@ -24,7 +24,7 @@ class AgentRuntime(
 
             val decision = policy.evaluate(step)
 
-            if (decision != PolicyDecision.ALLOW) {
+            if (!decision.allowed) {
                 auditor.log("STEP_DENIED", step)
                 continue
             }
